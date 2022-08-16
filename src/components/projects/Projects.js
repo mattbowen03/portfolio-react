@@ -3,7 +3,7 @@ import placeholder from "../../images/370-150.jpg";
 import { useState } from "react";
 
 export default function Projects() {
-  const [visibility, setVisibility] = useState("SHOW");
+  const [visibility, setVisibility] = useState("HIDDEN");
 
   return (
     <section className='projects' id='projects'>
