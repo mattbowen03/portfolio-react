@@ -55,6 +55,7 @@ section {
   padding: 80px 0;
 }
 
+
 /* Nav Section */
 
 header {
@@ -70,6 +71,7 @@ nav {
   justify-content: space-between;
   background-color: whitesmoke;
   position: fixed;
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.2);
 }
 
 nav li {
@@ -84,7 +86,7 @@ nav li a {
 }
 
 nav li a:hover {
-  color: blue;
+  color: #d4a373;
   transition: .3s ease-in-out;
 }
 
@@ -130,6 +132,7 @@ nav li a:hover {
 .headShot {
   border-radius: 50%;
   width: 40rem;
+
 }
 
 .heroLeft {
@@ -139,6 +142,7 @@ nav li a:hover {
 .heroLeft a img {
   height: 48px;
   width: 48px;
+
 }
 
 .heroRight {
@@ -146,7 +150,9 @@ nav li a:hover {
 }
 
 /* Projects Section */
-
+.row1{
+  align-items: stretch;
+}
 .projectsTitle {
   text-align: center;
   color: #d4a373;
@@ -154,19 +160,21 @@ nav li a:hover {
 
 .projContainer {
   padding: 1rem;
-  border: 1px solid black;
+  border: 1px solid lightgrey;
   margin: 1rem;
   cursor: pointer;
   width: 33.33%;
-  height: 325px
+  height: auto;
+  border-radius: 4px;
 }
 
 .projContainer:hover {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  transition: box-shadow .4s ease-in-out;
+  transition: box-shadow .2s ease-in-out;
   background-color: #e3d5ca;
-  transition: background-color .4s ease-in-out;
-  
+  transition: background-color .2s ease-in-out;
+  transform: scale(1.02);
+  transition: transform .2s ease-in-out;
 }
 
 
@@ -184,9 +192,11 @@ nav li a:hover {
 
 .projDropDn button {
   display: block;
-  padding: 1rem 2rem;
+  padding: 2rem 4rem;
   border: none;
   font-size: 1.6rem;
+  border-radius: 4px;
+
 }
 
 .projDropDn button:hover {
@@ -245,6 +255,12 @@ footer {
   .headShot {
     border-radius: 50%;
     width: 25rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .row {
+    width: 95%;
   }
 }
 
