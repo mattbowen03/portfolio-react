@@ -13,7 +13,14 @@ export default function Projects() {
         <h1>Projects</h1>
       </div>
       <div className='row row1'>
-        <div className='projContainer proj1'>
+        <div
+          onClick={() => {
+            window.open(
+              "https://wondrous-stardust-104b6a.netlify.app/",
+              "_blank"
+            );
+          }}
+          className='projContainer proj1'>
           <h2>Favorite Records</h2>
           <img src={favRecords} alt='' />
           <p>
@@ -21,7 +28,14 @@ export default function Projects() {
             API of a user and displays their record library in a carousel.{" "}
           </p>
         </div>
-        <div className='projContainer proj2'>
+        <div
+          onClick={() => {
+            window.open(
+              "https://joyful-monstera-95cb34.netlify.app/",
+              "_blank"
+            );
+          }}
+          className='projContainer proj2'>
           <h2>Ryan's Reddits</h2>
           <img src={redditClient} alt='' />
           <p>

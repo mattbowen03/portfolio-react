@@ -1,6 +1,11 @@
 import React from "react";
+import { useState } from "react";
+import menuIcon from "../../images/bx-menu.svg";
+import closeIcon from "../../images/bx-x.svg";
 
 export default function Nav() {
+  const [menuVisibility, setMenuVisibility] = useState("HIDDEN");
+
   return (
     <nav>
       <div className='logo'>
@@ -10,26 +15,52 @@ export default function Nav() {
           </h1>
         </a>
       </div>
-      <ul className='menu'>
-        <li>
+      <ul className={menuVisibility === "HIDDEN" ? "menu" : "menu showMenu"}>
+        <li
+          onClick={() => {
+            if (menuVisibility === "SHOW") {
+              setMenuVisibility("HIDDEN");
+            }
+          }}>
           <a className='menuItem' href='#hero'>
             About
           </a>
         </li>
-        <li>
+        <li
+          onClick={() => {
+            if (menuVisibility === "SHOW") {
+              setMenuVisibility("HIDDEN");
+            }
+          }}>
           <a className='menuItem' href='#projects'>
             Projects
           </a>
         </li>
-        <li>
+        <li
+          onClick={() => {
+            if (menuVisibility === "SHOW") {
+              setMenuVisibility("HIDDEN");
+            }
+          }}>
           <a className='menuItem' href='#contact'>
             Contact
           </a>
         </li>
       </ul>
-      <button className='hamburger'>
-        <i className='menuIcon material-icons'>menu</i>
-        <i className='closeIcon material-icons'>close</i>
+      <button
+        onClick={() => {
+          if (menuVisibility === "HIDDEN") {
+            setMenuVisibility("SHOW");
+          } else {
+            setMenuVisibility("HIDDEN");
+          }
+        }}
+        className='hamburger'>
+        <img
+          src={menuVisibility === "HIDDEN" ? menuIcon : closeIcon}
+          className='menuIcon material-icons'
+          alt=''
+        />
       </button>
     </nav>
   );
