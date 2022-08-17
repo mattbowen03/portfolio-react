@@ -177,6 +177,10 @@ nav li a:hover {
   transition: transform .2s ease-in-out;
 }
 
+.projContainer img {
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+}
 
 .showRow2 {
   display: none;

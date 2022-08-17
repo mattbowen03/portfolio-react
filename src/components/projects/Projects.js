@@ -1,5 +1,7 @@
 import React from "react";
 import placeholder from "../../images/370-150.jpg";
+import favRecords from "../../images/fav-records.jpg";
+import redditClient from "../../images/reddit-client.jpg";
 import { useState } from "react";
 
 export default function Projects() {
@@ -13,18 +15,18 @@ export default function Projects() {
       <div className='row row1'>
         <div className='projContainer proj1'>
           <h2>Favorite Records</h2>
-          <img src={placeholder} alt='' />
+          <img src={favRecords} alt='' />
           <p>
             This application was built with React. It accesses the discogs.com
             API of a user and displays their record library in a carousel.{" "}
           </p>
         </div>
         <div className='projContainer proj2'>
-          <h2>Spotify Playlist</h2>
-          <img src={placeholder} alt='' />
+          <h2>Ryan's Reddits</h2>
+          <img src={redditClient} alt='' />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sequi
-            dolore eos iusto.
+            This application was built with React-Redux. It accesses the Reddit
+            API to display my friend Ryan's favorite sub-reddits.
           </p>
         </div>
         <div className='projContainer proj3'>
