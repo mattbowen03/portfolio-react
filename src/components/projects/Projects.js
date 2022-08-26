@@ -44,7 +44,14 @@ export default function Projects() {
             API to display my friend Ryan's favorite sub-reddits.
           </p>
         </div>
-        <div className='projContainer proj3'>
+        <div
+          className='projContainer proj3'
+          onClick={() => {
+            window.open(
+              "https://fantastic-sawine-1d84d5.netlify.app/",
+              "_blank"
+            );
+          }}>
           <h2>Cuppett Psychology</h2>
           <img src={cuppettPsychology} alt='' />
           <p>
