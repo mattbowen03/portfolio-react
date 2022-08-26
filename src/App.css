@@ -234,7 +234,7 @@ form {
 input,
 textarea {
   display: block;
-  font-size: 1.8rem;
+  font-size: 16px;
   width: 100%;
   margin: 0 auto;
   border: 1px solid grey;
@@ -242,7 +242,7 @@ textarea {
   padding: 12px 20px;
   resize: none;
   font-family: "Source Sans Pro", sans-serif;
-  color: grey;
+  color: black;
 }
 
 textarea {
@@ -265,6 +265,7 @@ label {
   border: none;
   font-size: 20px;
   border-radius: 4px;
+  color: black;
 }
 
 .contact button:hover {
