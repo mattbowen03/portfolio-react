@@ -25,8 +25,8 @@ export default function Projects() {
           <h2>Favorite Records</h2>
           <img src={favRecords} alt='' />
           <p>
-            This application was built with React. It accesses the discogs.com
-            API of a user and displays their record library in a carousel.{" "}
+            I built this application with React. It accesses the discogs.com API
+            of a user and displays their record library in a carousel.{" "}
           </p>
         </div>
         <div
@@ -40,7 +40,7 @@ export default function Projects() {
           <h2>Ryan's Reddits</h2>
           <img src={redditClient} alt='' />
           <p>
-            This application was built with React-Redux. It accesses the Reddit
+            I built this application with React-Redux. It accesses the Reddit
             API to display my friend Ryan's favorite sub-reddits.
           </p>
         </div>
@@ -48,9 +48,9 @@ export default function Projects() {
           <h2>Cuppett Psychology</h2>
           <img src={cuppettPsychology} alt='' />
           <p>
-            This static website was designed and developed for Cuppett
-            Psychology Group. I used React and utilized react-router to handle
-            rendering components from the url.
+            I designed and developed this static site for Cuppett Psychology
+            Group. I used React and utilized react-router to handle rendering
+            components from the url.
           </p>
         </div>
       </div>
