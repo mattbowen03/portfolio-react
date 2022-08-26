@@ -5,13 +5,9 @@ export default function Contact() {
     <section className='contact' id='contact'>
       <div>
         <h1>Contact</h1>
-        <form
-          name='portfolio-contact-form'
-          data-netlify='true'
-          method='POST'
-          action='/'>
-          <input type='text' placeholder='Name' />
-          <input type='email' placeholder='Email' />
+        <form name='portfolio-contact-form' data-netlify='true' method='POST'>
+          <input type='text' name='name' placeholder='Name' />
+          <input type='email' name='email' placeholder='Email' />
           <textarea
             name='message'
             type='text'
