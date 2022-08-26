@@ -2,6 +2,7 @@ import React from "react";
 import placeholder from "../../images/370-150.jpg";
 import favRecords from "../../images/fav-records.jpg";
 import redditClient from "../../images/reddit-client.jpg";
+import cuppettPsychology from "../../images/cuppettpsychology.png";
 import { useState } from "react";
 
 export default function Projects() {
@@ -45,10 +46,11 @@ export default function Projects() {
         </div>
         <div className='projContainer proj3'>
           <h2>Cuppett Psychology</h2>
-          <img src={placeholder} alt='' />
+          <img src={cuppettPsychology} alt='' />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sequi
-            dolore eos iusto.
+            This static website was designed and developed for Cuppett
+            Psychology Group. I used React and utilized react-router to handle
+            rendering components from the url.
           </p>
         </div>
       </div>
