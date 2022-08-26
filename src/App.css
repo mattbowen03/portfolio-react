@@ -245,8 +245,12 @@ textarea {
   color: grey;
 }
 
-p label {
-  margin: 0 auto;
+textarea {
+  min-height: 300px;
+}
+
+label {
+  margin: 1rem auto;
   display: block ;
   font-size: 20px;
   color: #354347;
@@ -255,11 +259,12 @@ p label {
 .contact button {
   width: 100%;
   padding: 1em 1rem;
-  margin: 0 auto;
+  margin: 1rem auto;
   display: block;
   background-color: #EDEDE9;
   border: none;
   font-size: 20px;
+  border-radius: 4px;
 }
 
 .contact button:hover {
