@@ -188,7 +188,7 @@ nav li a:hover {
 }
 
 .projDropDn {
-  display: flex;
+  display: none;
   width: 80%;
   margin: auto;
   padding: 0 10px;
