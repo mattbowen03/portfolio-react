@@ -228,7 +228,7 @@ nav li a:hover {
 
 form {
   margin: 2.4rem 0;
-  width: 50%;
+  min-width: 600px;
 }
 
 input,
@@ -236,7 +236,7 @@ textarea {
   display: block;
   font-size: 1.8rem;
   width: 100%;
-  margin: 1.2rem auto;
+  margin: 0 auto;
   border: 1px solid grey;
   border-radius: 4px;
   padding: 12px 20px;
@@ -395,13 +395,13 @@ footer {
     justify-content: center;
   }
 
-  input,
-  textarea {
-    width: 80%;
-  }
 
   .projContainer {
     width: 90%;
+  }
+
+  form {
+    min-width: 90%;
   }
 }
 
