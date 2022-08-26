@@ -140,8 +140,9 @@ nav li a:hover {
 }
 
 .heroLeft a img {
-  height: 48px;
-  width: 48px;
+  height: 36px;
+  width: 36px;
+  margin: 5px;
 
 }
 
@@ -278,7 +279,7 @@ footer {
   }
 
   .hero .row {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .heroLeft,h2,a {

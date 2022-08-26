@@ -1,8 +1,8 @@
 import React from "react";
 import headShot from "../../images/headShot-Square.jpg";
-import gitHubIcon from "../../images/github-logo-48.png";
-import linkedInIcon from "../../images/linkedin-square-logo-48.png";
-import twitterIcon from "../../images/twitter-logo-48.png";
+import gitHubIcon from "../../images/bxl-github.svg";
+import linkedInIcon from "../../images/bxl-linkedin-square.svg";
+import twitterIcon from "../../images/bxl-twitter.svg";
 
 export default function Hero() {
   return (
