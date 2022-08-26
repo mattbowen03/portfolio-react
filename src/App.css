@@ -13,7 +13,6 @@ html, body {
   overflow-x: hidden;
 }
 
-
 body {
   position: relative;
   font-family: "Source Sans Pro", sans-serif;
@@ -157,6 +156,15 @@ nav li a:hover {
   margin-left: 25px;
 }
 
+.heroLeft p a {
+  color: #d4a373;
+}
+
+.heroLeft p a:hover {
+  color: #354347;
+  transition: .3s ease-in-out;
+}
+
 /* Projects Section */
 .row1{
   align-items: stretch;
@@ -209,6 +217,7 @@ nav li a:hover {
   font-size: 1.6rem;
   border-radius: 4px;
   color: #354347;
+  cursor: pointer;
 }
 
 .projDropDn button:hover {
@@ -272,6 +281,7 @@ label {
   font-size: 20px;
   border-radius: 4px;
   color: black;
+  cursor: pointer;
 }
 
 .contact button:hover {
@@ -414,6 +424,18 @@ footer {
 
   form {
     min-width: 90%;
+  }
+
+  .projContainer:hover {
+    box-shadow: none;
+    background-color: transparent;
+    transition: background-color .2s ease-in-out;
+    transform: none;
+  }
+
+  .contact button:hover {
+    background-color: #EDEDE9;
+    color: black;
   }
 }
 

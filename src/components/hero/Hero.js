@@ -36,6 +36,10 @@ export default function Hero() {
             rel='noreferrer'>
             <img src={twitterIcon} alt='Link to Twitter' />
           </a>
+          <p>
+            817.899.2696 <br />
+            <a href='mailto:mattbowen03@gmail.com'>mattbowen03@gmail.com</a>
+          </p>
         </div>
         <div className='heroRight'>
           <img

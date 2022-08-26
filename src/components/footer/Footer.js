@@ -9,9 +9,8 @@ export default function Footer() {
           href='https://github.com/mattbowen03'
           target='_blank'
           rel='noreferrer'>
-          Matt Bowen
+          mattbowen03
         </a>
-        .
         <br />
         Copyright 2022
       </p>
