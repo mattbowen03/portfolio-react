@@ -217,6 +217,10 @@ nav li a:hover {
   background-color: #e3d5ca;
 }
 
+.contact .row {
+  justify-content: center;
+}
+
 .contact h1 {
   text-align: center;
   color: grey;
@@ -224,6 +228,7 @@ nav li a:hover {
 
 form {
   margin: 2.4rem 0;
+  width: 50%;
 }
 
 input,
@@ -243,16 +248,27 @@ textarea {
 p label {
   margin: 0 auto;
   display: block ;
-  width: 50%;
   font-size: 20px;
   color: #354347;
 }
 
-#submitBtn:hover {
-  background-color: lightgray;
-  cursor: pointer;
-  transition: background-color .5s ease-in-out;
+.contact button {
+  width: 100%;
+  padding: 1em 1rem;
+  margin: 0 auto;
+  display: block;
+  background-color: #EDEDE9;
+  border: none;
+  font-size: 20px;
 }
+
+.contact button:hover {
+  background-color: #d4a373;
+  color: white;
+  transition: .4s ease-in-out;
+}
+
+
 
 /* Footer */
 
