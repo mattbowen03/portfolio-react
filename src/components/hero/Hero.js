@@ -39,14 +39,21 @@ export default function Hero() {
           <p>
             817-899-2696 |{" "}
             <a href='mailto:mattbowen03@gmail.com'>mattbowen03@gmail.com</a>
-            <br />
-            <a
-              href='https://docs.google.com/document/d/1ZJc8TW2dQdNmhPa_u29QMrYx_g0ovroty1eUvdT5AUQ/edit?usp=sharing'
-              target='_blank'
-              rel='noreferrer'>
-              Resume
-            </a>
           </p>
+          <button
+            className='resume'
+            onClick={() =>
+              window.open(
+                "https://docs.google.com/document/d/1ZJc8TW2dQdNmhPa_u29QMrYx_g0ovroty1eUvdT5AUQ/edit?usp=sharing"
+              )
+            }>
+            VIEW MY RESUME
+          </button>
+          <button className='resume'>
+            <a className='view-projects' href='#projects'>
+              VIEW MY PROJECTS
+            </a>
+          </button>
         </div>
         <div className='heroRight'>
           <img

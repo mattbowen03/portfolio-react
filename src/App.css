@@ -160,6 +160,33 @@ nav li a:hover {
   color: #d4a373;
 }
 
+
+
+.resume {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 12px;
+  color: #EDEDE9;
+  border-radius: 4px;
+  border: none;
+  background-color: #d4a373;
+  cursor: pointer;
+  display: block;
+  width: 70%;
+  margin-top: 6px;
+}
+
+.resume:hover {
+  scale: 1.01;
+  background-color: #354347;
+}
+
+.view-projects {
+  font-size: 30px;
+  font-weight: bold;
+  color: #EDEDE9;
+}
+
 .heroLeft p a:hover {
   color: #354347;
   transition: .3s ease-in-out;
@@ -336,6 +363,11 @@ footer {
   .heroLeft,
   .heroRight {
     margin: 0;
+  }
+
+  .resume {
+  margin: 6px auto;
+
   }
 
   .hamburger {
