@@ -57,7 +57,8 @@ export default function Projects() {
           <p>
             I designed and developed this static site for Cuppett Psychology
             Group. I used React and utilized react-router to handle rendering
-            components from the url.
+            components from the url. I am waiting on the client to submit some
+            copy before I deploy to their domain.
           </p>
         </div>
       </div>
