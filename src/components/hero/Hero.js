@@ -11,12 +11,12 @@ export default function Hero() {
         <div className='heroLeft'>
           <h1>About Me</h1>
           <h2 className='fadeinUp'>
-            I'm Matt! Father, Musician, and now a Web Developer! In Spring 2022
-            I got excited by Web Development and jumped in head first. I've
-            spent the last 6 months taking courses, building projects, and
-            teaching myself to code. Now I'm ready for new challenges and
-            seeking a full time development role! I have experience in
-            JavaScript, React, Redux, HTML, and CSS.
+            I'm Matt, a Musician turned Web Developer! In Spring 2022 I got
+            excited by Web Development and jumped in head first. I've spent the
+            last 6 months taking courses, building projects, and teaching myself
+            to code. Now I'm ready for new challenges and seeking a full time
+            development role! I have experience in JavaScript, React, Redux,
+            HTML, and CSS.
           </h2>
           <a
             href='https://github.com/mattbowen03'
