@@ -49,11 +49,11 @@ export default function Hero() {
             }>
             VIEW MY RESUME
           </button>
-          <button className='resume'>
+          {/* <button className='resume'>
             <a className='view-projects' href='#projects'>
               VIEW MY PROJECTS
             </a>
-          </button>
+          </button> */}
         </div>
         <div className='heroRight'>
           <img
