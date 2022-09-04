@@ -5,6 +5,7 @@ export default function Contact() {
     <section className='contact' id='contact'>
       <div>
         <h1>Contact</h1>
+        <h2>I'd love to see if I can help meet your needs. Let's chat!</h2>
         <div className='row'>
           <form name='contact' method='post'>
             <input type='hidden' name='form-name' value='contact' />
