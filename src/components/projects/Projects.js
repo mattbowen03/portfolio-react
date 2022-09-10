@@ -1,5 +1,4 @@
 import React from "react";
-import placeholder from "../../images/370-150.jpg";
 import favRecords from "../../images/fav-records.jpg";
 import redditClient from "../../images/reddit-client.jpg";
 import mathHelper from "../../images/math-helper.jpg";
