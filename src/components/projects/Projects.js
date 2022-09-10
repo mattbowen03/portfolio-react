@@ -64,7 +64,13 @@ export default function Projects() {
       </div>
 
       <div
-        className={visibility === "HIDDEN" ? "showRow2 row row1" : "row row1"}>
+        className={visibility === "HIDDEN" ? "showRow2 row row1" : "row row1"}
+        onClick={() => {
+          window.open(
+            "https://heartfelt-dieffenbachia-84ec7c.netlify.app/",
+            "_blank"
+          );
+        }}>
         <div className='projContainer proj4'>
           <h2>Math Helper!</h2>
           <img src={mathHelper} alt='math helper logo' />
