@@ -3,7 +3,7 @@ import React from "react";
 export default function Contact() {
   return (
     <section className='contact' id='contact'>
-      <div>
+      <div className='contact-info-wrap'>
         <h1>Contact</h1>
         <h2>I'd love to see if I can help meet your needs. Let's chat!</h2>
         <div className='row'>

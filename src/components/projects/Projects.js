@@ -2,6 +2,7 @@ import React from "react";
 import placeholder from "../../images/370-150.jpg";
 import favRecords from "../../images/fav-records.jpg";
 import redditClient from "../../images/reddit-client.jpg";
+import mathHelper from "../../images/math-helper.jpg";
 import cuppettPsychology from "../../images/cuppettpsychology.png";
 import { useState } from "react";
 
@@ -66,27 +67,11 @@ export default function Projects() {
       <div
         className={visibility === "HIDDEN" ? "showRow2 row row1" : "row row1"}>
         <div className='projContainer proj4'>
-          <h2>Project 4</h2>
-          <img src={placeholder} alt='' />
+          <h2>Math Helper!</h2>
+          <img src={mathHelper} alt='math helper logo' />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sequi
-            dolore eos iusto.
-          </p>
-        </div>
-        <div className='projContainer proj5'>
-          <h2>Project 5</h2>
-          <img src={placeholder} alt='' />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sequi
-            dolore eos iusto.
-          </p>
-        </div>
-        <div className='projContainer proj6'>
-          <h2>Project 6</h2>
-          <img src={placeholder} alt='' />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sequi
-            dolore eos iusto.
+            I created this little app for my 9yr old daughter to help her
+            practice multiplication. I used React.
           </p>
         </div>
       </div>

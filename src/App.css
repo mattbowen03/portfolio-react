@@ -206,7 +206,7 @@ nav li a:hover {
   border: 1px solid lightgrey;
   margin: 1rem;
   cursor: pointer;
-  width: 33.33%;
+  width: 30%;
   height: auto;
   border-radius: 4px;
 }
@@ -230,7 +230,7 @@ nav li a:hover {
 }
 
 .projDropDn {
-  display: none;
+  display: flex;
   width: 80%;
   margin: auto;
   padding: 0 10px;
@@ -350,7 +350,7 @@ footer p {
 }
 
 @media screen and (max-width: 1024px) {
-  .row {
+  .row, .projDropDn {
     width: 95%;
   }
 }
@@ -480,6 +480,10 @@ footer p {
   .contact button:hover {
     background-color: #EDEDE9;
     color: black;
+  }
+
+  .contact-info-wrap {
+    padding: 0 6px;
   }
 }
 
