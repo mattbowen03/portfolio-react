@@ -3,6 +3,7 @@ import favRecords from "../../images/fav-records.jpg";
 import redditClient from "../../images/reddit-client.jpg";
 import mathHelper from "../../images/math-helper.jpg";
 import cuppettPsychology from "../../images/cuppettpsychology.png";
+import apiMock from "../../images/apiMock.jpg";
 import { useState } from "react";
 
 export default function Projects() {
@@ -64,20 +65,39 @@ export default function Projects() {
       </div>
 
       <div
-        className={visibility === "HIDDEN" ? "showRow2 row row1" : "row row1"}
-        onClick={() => {
-          window.open(
-            "https://heartfelt-dieffenbachia-84ec7c.netlify.app/",
-            "_blank"
-          );
-        }}>
-        <div className='projContainer proj4'>
+        className={visibility === "HIDDEN" ? "showRow2 row row1" : "row row1"}>
+        <div
+          className='projContainer proj4'
+          onClick={() => {
+            window.open(
+              "https://heartfelt-dieffenbachia-84ec7c.netlify.app/",
+              "_blank"
+            );
+          }}>
           <h2>Math Helper!</h2>
           <img src={mathHelper} alt='math helper logo' />
           <p>
             I created this little app for my 9yr old daughter to help her
             practice multiplication. I used React.
           </p>
+        </div>
+        <div
+          className='projContainer proj5'
+          onClick={() => {
+            window.open(
+              "https://github.com/mattbowen03/api-call-test",
+              "_blank"
+            );
+          }}>
+          <h2>Api Mocking/Testing</h2>
+          <img src={apiMock} alt='github screenshot' />
+          <p>
+            This is a project I created for myself to learn how to make a simple
+            mocked api call. I used Jest to unit test for failure as well.
+          </p>
+        </div>
+        <div className='projContainer'>
+          <h2>New Projects Coming Soon...</h2>
         </div>
       </div>
 
