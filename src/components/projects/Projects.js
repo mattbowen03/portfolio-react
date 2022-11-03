@@ -19,10 +19,7 @@ export default function Projects() {
         <div
           className='projContainer proj1'
           onClick={() => {
-            window.open(
-              "https://fantastic-sawine-1d84d5.netlify.app/",
-              "_blank"
-            );
+            window.open("https://superb-kelpie-a8319a.netlify.app/", "_blank");
           }}>
           <h2>Meal'D</h2>
           <img src={mealD} alt='' />
