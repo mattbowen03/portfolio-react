@@ -1,8 +1,9 @@
 import React from "react";
-import favRecords from "../../images/fav-records.jpg";
-import redditClient from "../../images/reddit-client.jpg";
+import favRecords from "../../images/favRecords.png";
+import redditClient from "../../images/redditIcon.png";
 import mathHelper from "../../images/math-helper.jpg";
 import cuppettPsychology from "../../images/cuppettpsychology.png";
+import mealD from "../../images/social.png";
 import apiMock from "../../images/apiMock.jpg";
 import { useState } from "react";
 
@@ -16,13 +17,31 @@ export default function Projects() {
       </div>
       <div className='row row1'>
         <div
+          className='projContainer proj1'
+          onClick={() => {
+            window.open(
+              "https://fantastic-sawine-1d84d5.netlify.app/",
+              "_blank"
+            );
+          }}>
+          <h2>Meal'D</h2>
+          <img src={mealD} alt='' />
+          <p>
+            I utiltized useContext() and useReducer() hooks to handle complex
+            states. I built a custom input hook to handle state and validation
+            for form inputs. I made both GET and POST requests to a Firbase api
+            to fetch the backend meals list and add the user cart purchases to
+            the server. I handled error and loading states.
+          </p>
+        </div>
+        <div
           onClick={() => {
             window.open(
               "https://wondrous-stardust-104b6a.netlify.app/",
               "_blank"
             );
           }}
-          className='projContainer proj1'>
+          className='projContainer proj3'>
           <h2>Favorite Records</h2>
           <img src={favRecords} alt='' />
           <p>
@@ -43,23 +62,6 @@ export default function Projects() {
           <p>
             I built this application with React-Redux. It accesses the Reddit
             API to display my friend Ryan's favorite sub-reddits.
-          </p>
-        </div>
-        <div
-          className='projContainer proj3'
-          onClick={() => {
-            window.open(
-              "https://fantastic-sawine-1d84d5.netlify.app/",
-              "_blank"
-            );
-          }}>
-          <h2>Cuppett Psychology</h2>
-          <img src={cuppettPsychology} alt='' />
-          <p>
-            I designed and developed this static site for Cuppett Psychology
-            Group. I used React and utilized react-router to handle rendering
-            components from the url. I am waiting on the client to submit some
-            copy before I deploy to their domain.
           </p>
         </div>
       </div>
@@ -96,8 +98,22 @@ export default function Projects() {
             mocked api call. I used Jest to unit test for failure as well.
           </p>
         </div>
-        <div className='projContainer'>
-          <h2>New Projects Coming Soon...</h2>
+        <div
+          className='projContainer proj6'
+          onClick={() => {
+            window.open(
+              "https://fantastic-sawine-1d84d5.netlify.app/",
+              "_blank"
+            );
+          }}>
+          <h2>Cuppett Psychology</h2>
+          <img src={cuppettPsychology} alt='' />
+          <p>
+            I designed and developed this static site for Cuppett Psychology
+            Group. I used React and utilized react-router to handle rendering
+            components from the url. I am waiting on the client to submit some
+            copy before I deploy to their domain.
+          </p>
         </div>
       </div>
 
