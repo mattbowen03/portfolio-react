@@ -3,7 +3,7 @@ import favRecords from "../../images/favRecords.png";
 import redditClient from "../../images/redditIcon.png";
 import mathHelper from "../../images/math-helper.jpg";
 import cuppettPsychology from "../../images/cuppettpsychology.png";
-import mealD from "../../images/social.png";
+import lecrae from "../../images/Lecrae.jpg";
 import apiMock from "../../images/apiMock.jpg";
 import { useState } from "react";
 
@@ -19,16 +19,14 @@ export default function Projects() {
         <div
           className='projContainer proj1'
           onClick={() => {
-            window.open("https://superb-kelpie-a8319a.netlify.app/", "_blank");
+            window.open("https:lecrae.com", "_blank");
           }}>
-          <h2>Meal'D</h2>
-          <img src={mealD} alt='' />
+          <h2>Lecrae</h2>
+          <img src={lecrae} alt='' />
           <p>
-            I utiltized useContext() and useReducer() hooks to handle complex
-            states. I built a custom input hook to handle state and validation
-            for form inputs. I made both GET and POST requests to a Firbase api
-            to fetch the backend meals list and add the user cart purchases to
-            the server. I handled error and loading states.
+            I updated and redesigned the website for grammy award-winning
+            rapper, Lecrae. Constrained by a squarespace template, I was still
+            able to deliver on requirements by creatively injecting code.
           </p>
         </div>
         <div
