@@ -19,14 +19,15 @@ export default function Projects() {
         <div
           className='projContainer proj1'
           onClick={() => {
-            window.open("https:lecrae.com", "_blank");
+            window.open("https://www.cuppettpsychology.com", "_blank");
           }}>
-          <h2>Lecrae</h2>
-          <img src={lecrae} alt='' />
+          <h2>Cuppett Psychology</h2>
+          <img src={cuppettPsychology} alt='' />
           <p>
-            I updated and redesigned the website for grammy award-winning
-            rapper, Lecrae. Constrained by a squarespace template, I was still
-            able to deliver on requirements by creatively injecting code.
+            I designed and developed this site for Cuppett Psychology Group. I
+            used React and utilized react-router to handle rendering components
+            from the url. I also created a back end using Firebase for the
+            owners to view form submissions.
           </p>
         </div>
         <div
@@ -96,18 +97,14 @@ export default function Projects() {
         <div
           className='projContainer proj6'
           onClick={() => {
-            window.open(
-              "https://fantastic-sawine-1d84d5.netlify.app/",
-              "_blank"
-            );
+            window.open("https:lecrae.com", "_blank");
           }}>
-          <h2>Cuppett Psychology</h2>
-          <img src={cuppettPsychology} alt='' />
+          <h2>Lecrae</h2>
+          <img src={lecrae} alt='' />
           <p>
-            I designed and developed this static site for Cuppett Psychology
-            Group. I used React and utilized react-router to handle rendering
-            components from the url. I am waiting on the client to submit some
-            copy before I deploy to their domain.
+            I updated and redesigned the website for grammy award-winning
+            rapper, Lecrae. Constrained by a squarespace template, I was still
+            able to deliver on requirements by creatively injecting code.
           </p>
         </div>
       </div>

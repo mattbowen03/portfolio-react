@@ -2,7 +2,6 @@ import React from "react";
 import headShot from "../../images/headShot-Square.jpg";
 import gitHubIcon from "../../images/bxl-github.svg";
 import linkedInIcon from "../../images/bxl-linkedin-square.svg";
-import twitterIcon from "../../images/bxl-twitter.svg";
 
 export default function Hero() {
   return (
@@ -25,12 +24,6 @@ export default function Hero() {
             target='_blank'
             rel='noreferrer'>
             <img src={linkedInIcon} alt='Link to LinkedIn' />
-          </a>
-          <a
-            href='https://twitter.com/mattbowen03'
-            target='_blank'
-            rel='noreferrer'>
-            <img src={twitterIcon} alt='Link to Twitter' />
           </a>
           <p>
             817-899-2696 |{" "}
