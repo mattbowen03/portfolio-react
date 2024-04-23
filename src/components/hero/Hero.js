@@ -1,5 +1,5 @@
 import React from "react";
-import headShot from "../../images/headShot-Square.jpg";
+import headShot from "../../images/matt-2024-hs-sq.jpg";
 import gitHubIcon from "../../images/bxl-github.svg";
 import linkedInIcon from "../../images/bxl-linkedin-square.svg";
 
